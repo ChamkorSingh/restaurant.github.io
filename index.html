@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- slick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Dr+Sugiyama&family=Lora&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="inner1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="social">
+                            <ul class="nav justify-content-center justify-content-md-end">
+                                <li class="nav-item"><a href="#link"><img src="media/google-plus.png" alt="google-plus" class="img-fluid"><span class="sr-only">google plus</span></a></li>
+                                <li class="nav-item"><a href="#link"><img src="media/twitter.png" alt="twitter" class="img-fluid"><span class="sr-only">twitter</span></a></li>
+                                <li class="nav-item"><a href="#link"><img src="media/facebook.png" alt="facebook" class="img-fluid"><span class="sr-only">facebook</span></a></li>
+                                <li class="nav-item"><a href="#link"><img src="media/pinterest.png" alt="pinterest" class="img-fluid"><span class="sr-only">pinterest</span></a></li>
+                                <li class="nav-item"><a href="#link"><img src="media/linkedin2.png" alt="linkedin" class="img-fluid"><span class="sr-only">LinkedIn</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inner2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <a href="index.html" class="header-main"><h1 class="main-header text-md-left">Restaurant</h1></a>
+                    </div>
+                    <div class="col-sm-7">
+                        <nav class="main-nav d-none d-md-block">
+                            <ul class="nav nav-fill">
+                                <li class="nav-item"><a href="./about.html">about</a></li>
+                                <li class="nav-item"><a href="#link">events</a></li>
+                                <li class="nav-item"><a href="#link">menu</a></li>
+                                <li class="nav-item"><a href="#link">gallery</a></li>
+                                <li class="nav-item"><a href="#link">contacts</a></li>
+                                <li class="nav-item"><a href="#link">blog</a></li>
+                            </ul>
+                        </nav>
+                        <select name="nav" id="nav-item" class="d-none d-block d-md-none">
+                            <option value="about">about</option>
+                            <option value="events">events</option>
+                            <option value="menu">menu</option>
+                            <option value="gallery">gallery</option>
+                            <option value="contacts">contacts</option>
+                            <option value="blog">blog</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inner3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="slogan text-md-left">Top quality ingredients only in our kitchen!</p>
+                    </div>
+                    <div class="col-sm-6 text-md-right search">
+                        <input type="search" value="" name="search"
+                        >
+                        <img src="media/search.png" alt="search icon" class="img-fluid">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section hero">
+            <div class="container">
+                <div class="hero-slider">
+                    <div class="slide">
+                        <h2 class="promo-header d-none d-md-block"><span>salad</span>of the day</h2>
+                        <div class="promo-box d-none d-md-block">
+                            <h3>What is inside?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, culpa.</p>
+                        </div>
+                        <img src="media/salad.jpg" alt="salad">
+                    </div>
+                    <div class="slide">
+                        <h2 class="promo-header d-none d-md-block"><span>burger</span>of the day</h2>
+                        <div class="promo-box d-none d-md-block">
+                            <h3>What is inside?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, culpa.</p>
+                        </div>
+                        <img src="media/burger.jpg" alt="burger">
+                    </div>
+                    <div class="slide">
+                        <h2 class="promo-header d-none d-md-block"><span>pizza</span>of the day</h2>
+                        <div class="promo-box d-none d-md-block">
+                            <h3>What is inside?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, culpa.</p>
+                        </div>
+                        <img src="media/pizza.jpg" alt="pizza">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section featured">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product">
+                            <figure>
+                                <img src="media/location-finder.jpg" alt="just an example img" class="img-fluid product-img">
+                                <figcaption>
+                                    <h3>Location Finder</h3>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product">
+                            <figure>
+                                <img src="media/food-quality.jpg" alt="just an example img" class="img-fluid product-img">
+                                <figcaption>
+                                    <h3>Food Quality & Menu</h3>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product">
+                            <figure>
+                                <img src="media/employment.jpg" alt="just an example img" class="img-fluid product-img">
+                                <figcaption>
+                                    <h3>Employment</h3>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product">
+                            <figure>
+                                <img src="media/our-story.jpg" alt="just an example img" class="img-fluid product-img">
+                                <figcaption>
+                                    <h3>Our Story</h3>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product">
+                            <figure>
+                                <img src="media/promotions.jpg" alt="just an example img" class="img-fluid product-img">
+                                <figcaption>
+                                    <h3>Promotions</h3>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product">
+                            <figure>
+                                <img src="media/fresh-ideas.jpg" alt="just an example img" class="img-fluid product-img">
+                                <figcaption>
+                                    <h3>Fresh Ideas</h3>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section offers">
+            <div class="container">
+                <div class="row">
+                    <h2 class="reservations">Reservations and orders may be placed</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col">
+                        <div class="offerDiv ">
+                            <img src="media/mug.png" alt="just an example img" class="img-fluid float-md-left">
+                            <div class="offer-textbox float-md-right">
+                                <h2 class="offerheader">offer one <span class="big">Lorem, ipsum.</span></h2>
+                                <p class="offertext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae cum omnis hic debitis illum eligendi eius, culpa commodi quidem neque, quasi optio. Velit voluptates dolor voluptatum, cumque similique quia iusto!</p>
+                                <a href="#link" class="offerlink">>> Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col">
+                        <div class="offerDiv">
+                            <img src="media/spoon-knife.png" alt="just an example img" class="img-fluid float-md-left">
+                            <div class="offer-textbox float-md-right">
+                                <h2 class="offerheader">offer one <span class="big">Lorem, ipsum.</span></h2>
+                                <p class="offertext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae cum omnis hic debitis illum eligendi eius, culpa commodi quidem neque, quasi optio. Velit voluptates dolor voluptatum, cumque similique quia iusto!</p>
+                                <a href="#link" class="offerlink">>> Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="offerDiv">
+                            <img src="media/heart.png" alt="just an example img" class="img-fluid float-md-left">
+                            <div class="offer-textbox float-md-right">
+                                <h2 class="offerheader">offer one <span class="big">Lorem, ipsum.</span></h2>
+                                <p class="offertext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae cum omnis hic debitis illum eligendi eius, culpa commodi quidem neque, quasi optio. Velit voluptates dolor voluptatum, cumque similique quia iusto!</p>
+                                <a href="#link" class="offerlink">>> Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="section clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="clients nav nav-fill">
+                            <li class="nav-item client client1"><a href="#link">client logo</a></li>
+                            <li class="nav-item client client2"><a href="#link">client logo</a></li>
+                            <li class="nav-item client client3 d-none d-md-block"><a href="#link">client logo</a></li>
+                            <li class="nav-item client client4 d-none d-md-block"><a href="#link">client logo</a></li>
+                            <li class="nav-item client client5 last d-none d-md-block"><a href="#link">client logo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 more-info">
+                        <h2 class="footer-h2">about us</h2>
+                        <div class="info-text">
+                            <p class="footer-text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam cum alias cupiditate, pariatur repudiandae. Voluptatibus dolores doloremque aperiam amet quas modi enim laudantium consectetur?</p>
+                            <p class="footer-text">Architecto, hic illum quasi ratione, vel libero reiciendis accusamus sunt voluptate omnis expedita autem dicta ab laborum id. Quae animi placeat natus saepe eius explicabo!</p>
+                        <a href="#link" class="footer-link">>> read more</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 more-info">
+                        <h2 class="footer-h2">our blog</h2>
+                        <div class="blog-div">
+                            <h3 class="footer-subheader">Lorem ipsum dolor sit.</h3>
+                            <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis iure, nulla quaerat ad consequatur! Reiciendis blanditiis atque iste nam.</p>
+                        </div>
+                        <div class="blog-div last">
+                            <h3 class="footer-subheader">Lorem ipsum dolor sit.</h3>
+                            <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis iure, nulla quaerat ad consequatur! Reiciendis blanditiis atque iste nam.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 more-info">
+                        <div class="footer-h2">
+                            <h2 class="footer-h2">our flickr</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 more-info">
+                        <h2 class="footer-h2">get in touch</h2>
+                        <ul class="address nav flex-column">
+                            <li class="nav-item">8901 Marmora Road</li>
+                            <li class="nav-item">Glasgow, DO4 89GR</li>
+                            <li class="nav-item">Freephone: +1 800 559 6580</li>
+                            <li class="nav-item">Telephone: +1 959 603 6035</li>
+                            <li class="nav-item">FAX: +1 504 889 9898</li>
+                            <li class="nav-item email-link"><a href="#link" class="email">E-mail: mail@demolink.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section colophon">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="colophon-p">Restaurant</p>
+                        <p class="colophon">Restaurant &copy; 2018 Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- link to local app.js -->
+    <script>
+        $(document).ready(function(){
+            $('.hero-slider').slick({fade: true});
+                
+            // before slide changes
+            // get next slide image
+            // change inline style to use newimage src
+
+            $('.hero-slider').on('beforeChange', function(event,slick, currentSlide, nextSlide) {
+                var img = $("div[data-slick-index='" + nextSlide + "'] img").attr('src');
+                $('.hero').css('background-image', 'url(' + img + ')');
+            });
+        });
+        </script>
+</body>
+</html>
